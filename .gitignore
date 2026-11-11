@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artifacts
+sft_output/
+sft_merged_model/
+checkpoints/
+wandb/
+
+# Logs
+*.log
+
+# OS
+.DS_Store

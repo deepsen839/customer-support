@@ -1,0 +1,15 @@
+# Install in Kaggle GPU notebook. For best compatibility, use a fresh session.
+
+streamlit>=1.41.1
+transformers>=4.45.0
+datasets>=3.0.0
+peft>=0.13.0
+accelerate>=1.0.0
+bitsandbytes>=0.44.0
+torch>=2.3.0
+numpy>=1.26.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+tqdm>=4.66.0
+huggingface_hub>=0.28.0
+matplotlib>=3.7.0
