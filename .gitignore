@@ -29,3 +29,17 @@ wandb/
 
 # OS
 .DS_Store
+
+# Generated training artifacts
+sft_rl_trained_artifacts.zip
+sft_test_dataset.jsonl
+rl_output_penalty8/episode_metrics.csv
+rl_output_penalty8/evaluation_report_fresh.json
+rl_output_penalty8/learning_curve.png
+
+# Secrets and local environments
+.env
+.streamlit/secrets.toml
+.venv/
+__pycache__/
+*.pyc
